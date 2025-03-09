@@ -1,0 +1,70 @@
+@font-face {
+    font-family: love;
+    src: url(Pixelscapes.ttf);
+}
+.card{
+    width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #000;
+    background-color: hotpink;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin-top: 100px;
+}
+.top{
+display: flex;
+justify-content: left;
+align-items: center;
+padding-top: none;
+background-color: rgb(158, 0, 50);
+padding: 0px 0px 5px 20px;
+height: 30px;
+color: rgb(255, 191, 221);
+font-family: love;
+}
+.m{
+display: flex;
+justify-content: center;
+text-align: center;
+gap: 20px;
+height: 260px;
+padding-top: 0px;
+font-family: love;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 20px 0px 0px 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 5px #c33f79;
+    
+   
+}
+.text{
+padding-right: 100px;
+padding-top: 25px;
+font-size: large;
+height: 250px;
+color: rgb(255, 191, 221);
+text-shadow: 10px 10px 5px #c33f79;
+}
+.bu{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    padding-bottom: 2px;
+    font-family: love;
+    background-color:  rgb(49, 32, 47);
+    border: 2px solid #280020;
+    border-radius: 14px;
+    box-shadow: 10px 10px 5px #982f5c;
+    color: rgb(255, 180, 221);
+}
+.r{
+color: rgb(156, 0, 49);
+
+}
